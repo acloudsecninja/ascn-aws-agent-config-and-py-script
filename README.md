@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-# Before you start, ensure you have the following:
+Before you start, ensure you have the following:
 
     AWS Account
     AWS SDK for Python (Boto3)
@@ -11,12 +11,14 @@
 
 
 
-# Step 1: Install Required Libraries
+Step 1: Install Required Libraries
+
 ```bash
 pip install boto3 langchain
 ```
 
-# Step 2: Setup AWS Credentials
+Step 2: Setup AWS Credentials
+
 ```bash
 
 ##EXAMPLE
