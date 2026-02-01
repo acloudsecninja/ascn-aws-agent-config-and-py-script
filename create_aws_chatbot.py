@@ -2,8 +2,9 @@
 import os
 import boto3
 from dotenv import load_dotenv
-from langchain.chains import LLMChain
-from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+
 
 # Load .env variables from .env file
 load_dotenv()
