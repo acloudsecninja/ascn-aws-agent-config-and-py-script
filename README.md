@@ -57,10 +57,10 @@ Step 5: Run the command pull-info-from-aws-acct.py Python Script to setup boto3 
 
 OR
 
-Run the command which will use an agent to interact with AWS API services
+Run the command which will use an AWS Agent to interact with AWS API services and return results as expected.
 
 ```bash
-./langchain-agent-configuration-script.py
+./ascn-aws-agent.py
 ```
 
 - Created and Maintained by - A Cloud Security Ninja LLC - 
